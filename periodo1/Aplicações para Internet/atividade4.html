@@ -1,0 +1,52 @@
+PÁGINA DO FORMULÁRIO 
+<html>
+   <head>
+     <title>Contato HTML</title>
+   </head>
+   <body>
+     <form method="get" action="obrigado.html">
+      <div style="background-color:antiquewhite; padding: 10px; border: solid 1px black">
+        <label>Nome: </label>
+         <input type="text" name="Nome" required/></br>
+         </br>
+       <label>E-mail: </label>
+         <input type="email" name="Email" required/></br>
+         </br>
+       <label>Assunto: </label>
+         <select name="Assunto">
+           <option value="Elogio">Elogio</option>
+           <option value="Reclamações">Reclamações</option>
+           <option value="Solicitações">Solicitações</option>
+         </select></br>
+         </br>
+        <label>Mensagem: </label>
+         <textarea name="mensagem" required></textarea></br>
+         </br>
+       <input type="checkbox" name="Termo" value="Concordo com os termos" required>
+       <label>Concordo com os Termos de privacidade do site.</label></br>
+       </br>
+      </div>
+      <div style="width: 47%; float:left; background-color: rgb(103, 146, 103); border: solid 1px black; margin: 10px; padding: 5px; text-align: center;">
+       <input type="submit" value="Enviar mensagem!"/>
+       </br>
+      </div>
+      <div style="width: 47%; float:left; background-color: rgb(168, 93, 93); border: solid 1px black; margin: 10px; padding: 5px; text-align: center;">
+       <input type="reset" value="Limpar tudo"/>
+      </div> 
+     </form>
+   </body>
+</html>
+
+PÁGINA DE CONFIRMAÇÃO 
+
+<html>
+   <head>
+     <title>Obrigada HTML</title>
+   </head>
+   <body>
+    <div style= "text-align: center; background-color: blanchedalmond; padding: 10px; border: solid 1px black">
+     <h2>Confirmação de recebimento do E-mail.</h2>
+     <h3>Obrigada pela mensagem, entraremos em contato em breve!</h3>
+   </div>
+   </body>
+</html>      

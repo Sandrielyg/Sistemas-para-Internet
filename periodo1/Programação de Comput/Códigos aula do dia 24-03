@@ -1,0 +1,32 @@
+programa {
+	funcao inicio() {
+		real temperaturalida
+		real temperaturaconvertida = 0
+		caracter indice
+		
+		escreva ("Ola! Digite o valor que encontra a temperatura em sua cidade! \n")
+		leia(temperaturalida)
+		
+		escreva ("Caso seja em Celsius, digite A \n")
+		escreva ("Caso seja em Fahrenheit, digite B \n")
+		escreva ("Caso seja em Kelvin, digite C \n")
+		
+		leia(indice)
+		//leia (temperaturaconvertida)
+		
+		escolha(indice){
+		    caso 'A':
+		    
+		     escreva ("A temperatura em Celsius é ",temperaturaconvertida + temperaturalida,". \n")
+		     pare
+		    caso 'B':
+		     temperaturaconvertida = temperaturalida * (1.8) + 32
+		     escreva ("A temperatura em Fahrenheit é ",temperaturaconvertida,". \n")
+		     pare
+		    caso 'C':
+		     temperaturaconvertida = temperaturalida + 273
+		     escreva ("A temperatura em Kelvin é ",temperaturaconvertida,". \n")
+		     pare
+		    caso contrario:
+		     escreva ("Escala de conversão não encontrada.")
+		}
