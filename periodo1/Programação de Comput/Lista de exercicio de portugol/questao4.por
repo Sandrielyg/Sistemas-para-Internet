@@ -49,7 +49,7 @@ programa {
                     }
                     senao se (moedaConvertida == 2){
                         resultado = valor * 1.09
-                        escreva ("O valor é de ",resultado)," dólares. \n")
+                        escreva ("O valor é de ",resultado," dólares. \n")
                     }
                     senao {
                         escreva ("O valor já está em Euro, não necessita de conversão. \n")
