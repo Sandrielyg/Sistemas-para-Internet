@@ -7,7 +7,7 @@ programa {
 		escreva("Digite um produto \n")
 		leia(produto)
 		
-		escreva("Digite o preço \n")
+		escreva("Digite o preÃ§o \n")
 		leia(preco)
 		
 		maiorPreco = preco
@@ -34,10 +34,10 @@ programa {
     		}
     		enquanto(outroProduto == "sim")
     		
-    		escreva("O produto de maior preço é: ", produtoMaior, " seu preço ", maiorPreco)
+    		escreva("O produto de maior preÃ§o Ã©: ", produtoMaior, " seu preÃ§o ", maiorPreco)
 		}
 		senao{
-		    escreva("O produto de maior preço é: ", produto, " seu preço ",  )
+		    escreva("O produto de maior preÃ§o Ã©: ", produto, " seu preÃ§o ",  )
 		}
 	}
 }
