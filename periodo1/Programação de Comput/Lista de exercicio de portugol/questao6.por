@@ -4,23 +4,23 @@ programa {
 		cadeia produto, outroProduto, produtoMaior
 		real preco, maiorPreco
 		
-		escreva("Digite um produto \n")
+		escreva("Informe o produto, após iso tecle enter. \n")
 		leia(produto)
 		
-		escreva("Digite o preço \n")
+		escreva("Agora informe o preço, após isso tecle enter. \n")
 		leia(preco)
 		
 		maiorPreco = preco
         
-        escreva("Deseja informar um novo produto \n")
+        escreva("Deseja informar um novo produto? (sim/nao) \n")
         leia(outroProduto)
             		
 		se(outroProduto == "sim"){
     		faca{
-    		    escreva("Digite outro produto \n")
+    		    escreva("Digite outro produto. \n")
     		    leia(produto)
     		    
-    		    escreva("Digite o preco do produto \n")
+    		    escreva("Digite o preco do produto. \n")
     		    leia(preco)
     		    
     		    se(preco > maiorPreco){
@@ -28,16 +28,16 @@ programa {
     		        maiorPreco = preco
     		    }
     		   
-    		    escreva("Deseja informar um novo produto \n")
+    		    escreva("Deseja informar um novo produto? (sim/nao) \n")
                 leia(outroProduto)
     		    
     		}
     		enquanto(outroProduto == "sim")
     		
-    		escreva("O produto de maior preço é: ", produtoMaior, " seu preço ", maiorPreco)
+    		escreva("O produto de maior preço é ", produtoMaior, " seu preço ", maiorPreco)
 		}
 		senao{
-		    escreva("O produto de maior preço é: ", produto, " seu preço ",  )
+		    escreva("O produto de maior preço é ", produto, " seu preço ",  )
 		}
 	}
 }
