@@ -37,7 +37,7 @@ programa {
     		escreva("O produto de maior preço é ", produtoMaior, " seu preço ", maiorPreco)
 		}
 		senao{
-		    escreva("O produto de maior preço é ", produto, " seu preço ",  )
+		    escreva("O produto de maior preço é ", produto, " seu preço ", preco )
 		}
 	}
 }
