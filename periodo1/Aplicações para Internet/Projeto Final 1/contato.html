@@ -1,0 +1,92 @@
+<html>
+   <head>
+     <title>Contato HTML</title>
+   </head>
+   <body>
+    <div>
+            <header style = "background-color: rgb(255, 147, 250); text-align: center; height: 100px; padding: 100px; margin: 15px;">
+                <h1>HTML <sup>Linguagem de marcação de Hipertexto</sup></h1>
+                <h3>Tutoriais para iniciantes</h3>
+            </header>
+            <section style = "padding: 15px;">  
+                <nav style="margin: 0;">
+                    <ul style="list-style: none; display: flex;justify-content: space-between; background-color: rgb(255, 147, 250); padding: 10px;">
+                        <li style="flex-grow: 1;"><a href="index.html">Inicio</a></li>
+                        <li style="flex-grow: 1;"><a href="index.html#HTML">HTML</a></li>
+                        <li style="flex-grow: 1;"><a href="index.html#tabela">Tabela e Lista</a></li>
+                        <li style="flex-grow: 1;"><a href="index.html#sobre">Sobre HTML, CSS e JS</a></li>
+                        <li style="flex-grow: 1;"><a href="index.html#links">Links</a></li>
+                        <li style="flex-grow: 1;"><a href="contato.html">Contato</a></li>
+                    </ul>
+                </nav>
+            </section>    
+        <form method="get" action="obrigado.html">
+        <div style="background-color:rgb(247, 171, 243); padding-left: 80px; border: solid 1px black">
+            <h4>Fale conosco:</h4>
+            <label>Nome: </label>
+            <input type="text" name="Nome" required/></br>
+            </br>
+        <label>E-mail: </label>
+            <input type="email" name="Email" required/></br>
+            </br>
+        <label>Assunto: </label>
+            <select name="Assunto">
+            <option value="Elogio">Elogio</option>
+            <option value="Reclamações">Reclamações</option>
+            <option value="Solicitações">Solicitações</option>
+            </select></br>
+            </br>
+            <label>Mensagem: </label>
+            <textarea name="mensagem" required></textarea></br>
+            </br>
+        <input type="checkbox" name="Termo" value="Concordo com os termos" required>
+        <label>Concordo com os Termos de privacidade do site.</label></br>
+        </br>
+        </div>
+        <div style="width: 47%; float:left; background-color: rgb(103, 146, 103); border: solid 1px black; margin: 10px; padding: 5px; text-align: center;">
+        <input type="submit" value="Enviar mensagem!"/>
+        </br>
+        </div>
+        <div style="width: 47%; float:left; background-color: rgb(168, 93, 93); border: solid 1px black; margin: 10px; padding: 5px; text-align: center;">
+        <input type="reset" value="Limpar tudo"/>
+        </div> 
+        </form>
+        <section id = "links" style = "display: flex; align-items: flex-start; justify-content: flex-start; margin: 10px;">
+            <section style = "width: 24%; height: 200px; padding: 20px;">
+                <p>
+                    <h3>Sobre: </h3>
+                    <li>HTTP - HyperText Transfer Protocol</li>
+                    <li>FTP - File Transfer Protocol</li>
+                </p>
+            </section>
+            <section style = "width: 24%; height: 200px; padding: 20px; background-color: rgb(214, 214, 214);">
+                <p>
+                    <h3>Referências: </h3>
+                    <li>HTTP - HyperText Transfer Protocol</li>
+                    <li>FTP - File Transfer Protocol</li>
+                </p>
+            </section>
+            <section style = "width: 24%; height: 200px; padding: 20px;">
+                <p>
+                    <h3>Tutorias: </h3>
+                    <li>Programação</li>
+                    <li>Linguagens Front-end</li>
+                    <li>Marketing</li>
+                </p>
+            </section>
+            <section style = "width: 24%; height: 200px; padding: 20px; background-color: rgb(214, 214, 214);">
+                <p>
+                    <h3>Outros links: </h3>
+                    <li>HTTP - HyperText Transfer Protocol</li>
+                    <li>FTP - File Transfer Protocol</li>
+                </p>
+            </section>
+        </section>
+        <footer style="width: 100%; text-align: center; background-color: rgb(255, 147, 250); padding: 10px;">
+            <p> Aluna Sandriely Gonçalves de Lima - Curso de Sistemas Para Internet.
+            </br> Aplicações para Internet - Professor Daniel Brandão.
+            </p>
+        </footer>
+    </div>
+   </body>
+</html>
