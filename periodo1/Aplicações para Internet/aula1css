@@ -1,7 +1,4 @@
-<html>
-  <head>
-        <style>
-            header {
+header {
                 background-color: rgb(255, 147, 250); text-align: center; height: 100px; padding: 100px; margin: 15px;
             }
             body {
@@ -22,10 +19,19 @@
             .final {
               width: 24%; height: 100px; padding: 20px;
             }
+            .final1 {width: 24%; height: 100px; padding: 20px; background-color: rgb(214, 214, 214);
+            } 
             .tabela {
               width: 48%; padding: 10px; border: solid 1px white;
             }
-        </style>
+            .ul-menu {list-style: none; display: flex;justify-content: space-between; background-color: rgb(255, 147, 250); padding: 10px;
+            }
+            .li-menu {flex-grow: 1
+            }
+            
+<html>
+  <head>
+    <link rel = "stylesheet" href ="estilo1.css"/>
     <title>Aula de Aplicações para Internet</title>
   </head>
   <body>
@@ -36,13 +42,13 @@
      </header>
      <section style = "padding: 15px;">  
        <nav style="margin: 0;">
-         <ul style = "list-style: none; display: flex;justify-content: space-between; background-color: rgb(255, 147, 250); padding: 10px;">
-           <li style="flex-grow: 1;"><a href="index.html">Inicio</a></li>
-           <li style="flex-grow: 1;"><a href="index.html#HTML">HTML</a></li>
-           <li style="flex-grow: 1;"><a href="index.html#tabela">Tabela e Lista</a></li>
-           <li style="flex-grow: 1;"><a href="index.html#sobre">Sobre HTML, CSS e JS</a></li>
-           <li style="flex-grow: 1;"><a href="index.html#links">Links</a></li>
-           <li style="flex-grow: 1;"><a href="contato.html" target="_blank">Contato</a></li>
+         <ul class = "ul-menu">
+           <li class = "li-menu";"><a href="index.html">Inicio</a></li>
+           <li class = "li-menu"><a href="index.html#HTML">HTML</a></li>
+           <li class = "li-menu"><a href="index.html#tabela">Tabela e Lista</a></li>
+           <li class = "li-menu"><a href="index.html#sobre">Sobre HTML, CSS e JS</a></li>
+           <li class = "li-menu"><a href="index.html#links">Links</a></li>
+           <li class = "li-menu"><a href="contato.html" target="_blank">Contato</a></li>
           </ul>
        </nav>
        <p>
@@ -64,7 +70,7 @@
        </p> <br/>
      </section>  
      <hr>
-     <section id = "tabela" style="display: flex; margin: 10px;">
+     <section id = "tabela" style="display: flex; margin: 10px">
        <section class="tabela" style="float:left; background-color: rgb(245, 189, 237);">
        <p>
        <table border="1">
@@ -162,7 +168,7 @@
            </ul>
          </p>
        </section>
-       <section class = "final" style = "background-color: rgb(214, 214, 214);">
+       <section class = "final1">
          <p>
            <h3>Referências: </h3>
            <ul>
@@ -181,7 +187,7 @@
            </ul>
          </p>
        </section>
-       <section class = "final" style = "background-color: rgb(214, 214, 214);">
+       <section class = "final1">
          <p>
            <h3>Outros links: </h3>
            <ul>
